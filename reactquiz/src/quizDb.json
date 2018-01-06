@@ -1,0 +1,5 @@
+{"quiz":[
+    { "id": 1, "question": "words starts with a", "options": ["abc","bcd","efg","klm"] },
+    { "id": 2, "question": "words starts with a", "options": ["abc","bcd","efg","klm"] },
+    { "id": 3, "question": "words starts with a", "options": ["abc","bcd","efg","klm"] }
+]}
