@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Question from './question.js';
+import Question from './Component/question.js';
 
 class App extends Component {
 	constructor(props) {
@@ -40,9 +40,9 @@ class App extends Component {
   componentDidMount() {
     this.setState({
       quizData: {"quiz":[
-        { "id": 1, "question": "words starts with a", "options": [{"option":"abc","id":"1","name":"first"},{"option":"bcd","id":"2","name":"first"},{"option":"efg","id":"3","name":"first"},{"option":"hij","id":"4","name":"first"}] },
-        { "id": 2, "question": "words starts with a", "options": [{"option":"abc","id":"1","name":"second"},{"option":"bcd","id":"2","name":"second"},{"option":"efg","id":"3","name":"second"},{"option":"hij","id":"4","name":"second"}]  },
-        { "id": 3, "question": "words starts with a", "options": [{"option":"abc","id":"1","name":"third"},{"option":"bcd","id":"2","name":"third"},{"option":"efg","id":"3","name":"third"},{"option":"hij","id":"4","name":"third"}]  }
+        { "id": 1, "question": "words starts with a", "options": [{"option":"abc","id":"1","name":"first"},{"option":"bcd","id":"2","name":"first"},{"option":"cde","id":"3","name":"first"},{"option":"def","id":"4","name":"first"}] },
+        { "id": 2, "question": "words starts with b", "options": [{"option":"abc","id":"1","name":"second"},{"option":"bcd","id":"2","name":"second"},{"option":"cde","id":"3","name":"second"},{"option":"def","id":"4","name":"second"}]  },
+        { "id": 3, "question": "words starts with c", "options": [{"option":"abc","id":"1","name":"third"},{"option":"bcd","id":"2","name":"third"},{"option":"cde","id":"3","name":"third"},{"option":"def","id":"4","name":"third"}]  }
     ]}
   });
     //   fetch('http://localhost:3000/quiz',{
