@@ -1,5 +1,5 @@
 {"quiz":[
-    { "id": 1, "question": "words starts with a", "options": ["abc","bcd","efg","klm"] },
-    { "id": 2, "question": "words starts with a", "options": ["abc","bcd","efg","klm"] },
-    { "id": 3, "question": "words starts with a", "options": ["abc","bcd","efg","klm"] }
+    { "id": 1, "question": "words starts with a", "options": [{"option":"abc","id":"1","name":"first"},{"option":"bcd","id":"2","name":"first"},{"option":"efg","id":"3","name":"first"},{"option":"hij","id":"4","name":"first"}] },
+    { "id": 2, "question": "words starts with a", "options": [{"option":"abc","id":"1","name":"second"},{"option":"bcd","id":"2","name":"second"},{"option":"efg","id":"3","name":"second"},{"option":"hij","id":"4","name":"second"}]  },
+    { "id": 3, "question": "words starts with a", "options": [{"option":"abc","id":"1","name":"third"},{"option":"bcd","id":"2","name":"third"},{"option":"efg","id":"3","name":"third"},{"option":"hij","id":"4","name":"third"}]  }
 ]}
